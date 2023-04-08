@@ -45,6 +45,7 @@ dependencies:
   firebase_core: ^2.9.0
   positioned_tap_detector_2: ^1.0.4
   image: ^4.0.15
+  speech_to_text: ^6.1.1
 
 dev_dependencies:
   flutter_test:
