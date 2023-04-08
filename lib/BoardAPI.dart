@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:braille/coordinate.dart';
 import 'package:braille/pdftoaudio.dart';
 import 'package:braille/writing_by_speech.dart';
 import 'package:flutter/cupertino.dart';
@@ -103,6 +104,11 @@ class _BoardAPIState extends State<BoardAPI> {
       appBar: AppBar(
         actions: [
           TextButton(onPressed: (){
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => CordinatesBoard()));
+          },
+              child: Text('Touch',style: TextStyle(color: Colors.black),)
+          ),
+          TextButton(onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(builder: (context) => AudioPDF()));
           },
               child: Text('Reading',style: TextStyle(color: Colors.black),)
@@ -110,7 +116,7 @@ class _BoardAPIState extends State<BoardAPI> {
           TextButton(onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(builder: (context) => SpeechWriting(writings)));
           },
-              child: Text('Speech to Text',style: TextStyle(color: Colors.black),)
+              child: Text('SpeechText',style: TextStyle(color: Colors.black),)
           ),
           TextButton(onPressed: (){
             whiteBoardController.convertToImage();
