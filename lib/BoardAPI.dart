@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:braille/pdftoaudio.dart';
 import 'package:braille/writing_by_speech.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -101,6 +102,11 @@ class _BoardAPIState extends State<BoardAPI> {
     return Scaffold(
       appBar: AppBar(
         actions: [
+          TextButton(onPressed: (){
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => AudioPDF()));
+          },
+              child: Text('Reading',style: TextStyle(color: Colors.black),)
+          ),
           TextButton(onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(builder: (context) => SpeechWriting(writings)));
           },
