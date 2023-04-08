@@ -32,8 +32,6 @@ class _SpeechWritingState extends State<SpeechWriting> {
   void _onSpeechResult(SpeechRecognitionResult result) {
     setState(() {
       text = result.recognizedWords;
-      writings=writings+text;
-      sendToDatabase(writings);
     });
   }
 
@@ -52,6 +50,8 @@ class _SpeechWritingState extends State<SpeechWriting> {
     await _speechToText.stop();
     setState(() {
       status="Not Listening";
+      writings=writings+text;
+      sendToDatabase(writings);
     });
   }
   String status="Not Listening";
@@ -82,7 +82,7 @@ class _SpeechWritingState extends State<SpeechWriting> {
             height: 200,
           ),
           GestureDetector(
-            onLongPressStart: (details) async {
+            onLongPressStart: (details)async {
               setState(() {
                 text="";
                 status="Listening";

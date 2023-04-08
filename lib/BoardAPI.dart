@@ -26,7 +26,8 @@ class _BoardAPIState extends State<BoardAPI> {
 
     try{
 
-      String baseUrl="http://braille23.pythonanywhere.com/upload";
+      //String baseUrl="http://braille23.pythonanywhere.com/upload";//logistic regression
+      String baseUrl="http://shuvam23dotrec.pythonanywhere.com/predict";//deep learning
       String base64=base64Encode(list);
       // final body={
       //   "image":base64
