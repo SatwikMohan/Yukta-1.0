@@ -5,6 +5,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:braille/coordinate.dart';
+import 'package:braille/deaf_screen.dart';
 import 'package:braille/pdftoaudio.dart';
 import 'package:braille/writing_by_speech.dart';
 import 'package:flutter/cupertino.dart';
@@ -104,10 +105,15 @@ class _BoardAPIState extends State<BoardAPI> {
     return Scaffold(
       appBar: AppBar(
         actions: [
+          // TextButton(onPressed: (){
+          //   Navigator.of(context).push(MaterialPageRoute(builder: (context) => CordinatesBoard()));
+          // },
+          //     child: Text('Touch',style: TextStyle(color: Colors.black),)
+          // ),
           TextButton(onPressed: (){
-            Navigator.of(context).push(MaterialPageRoute(builder: (context) => CordinatesBoard()));
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => DeafScreen()));
           },
-              child: Text('Touch',style: TextStyle(color: Colors.black),)
+              child: Text('Deaf',style: TextStyle(color: Colors.black),)
           ),
           TextButton(onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(builder: (context) => AudioPDF()));
