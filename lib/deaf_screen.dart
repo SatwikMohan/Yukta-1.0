@@ -1,3 +1,4 @@
+import 'package:braille/live_captions_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart' as st;
@@ -430,6 +431,13 @@ class _DeafScreenState extends State<DeafScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [
+          TextButton(onPressed: (){
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => LiveCaptionScreen()));
+          }, child: Text('Live Captions',style: TextStyle(color: Colors.black),))
+        ],
+      ),
       body: Center(
         child: Column(
           children: [
