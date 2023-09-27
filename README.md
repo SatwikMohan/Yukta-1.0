@@ -1,6 +1,6 @@
 # Inclusive Learning App
 
-![Project Logo](https://cdn.pixabay.com/photo/2018/08/19/17/54/education-3617221_1280.png=250x250) <!-- If applicable -->
+![Project Logo](https://cdn.pixabay.com/photo/2018/08/19/17/54/education-3617221_1280.png =250x250) <!-- If applicable -->
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <!-- Add a license badge if applicable -->
 
