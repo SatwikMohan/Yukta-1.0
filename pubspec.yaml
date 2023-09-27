@@ -49,6 +49,7 @@ dependencies:
   flutter_tts: ^3.6.3
   read_pdf_text: ^0.2.1
   better_player: ^0.0.63
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_test:
