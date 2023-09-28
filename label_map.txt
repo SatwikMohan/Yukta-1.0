@@ -1,0 +1,3 @@
+hello: 0
+thanks: 1
+iloveyou: 2
