@@ -48,6 +48,9 @@ The Inclusive Learning App offers a range of features to make education accessib
 - **Braille Output**: Course materials can be converted to Braille for blind users.
 - **User-Friendly Interface**: An intuitive and accessible interface designed for all users.
 
+## UI-Prototyping
+[Prototype link](https://www.figma.com/proto/C3a3LSdEQ0aMh9EWWuROUP/SIH-2023a?page-id=42%3A1024&type=design&node-id=42-1049&viewport=255%2C370%2C0.08&t=n6qv6mmaa0rbKMeb-1&scaling=contain&starting-point-node-id=42%3A1027&mode=design) 
+
 ## Usage
 
 The Inclusive Learning App is designed to provide an accessible and inclusive education experience. Here's how to make the most of it:
@@ -74,13 +77,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-We would like to express our gratitude to the developers, designers, and content creators who have contributed to this project. Their dedication to making education accessible to all is truly inspiring.
+We want to thank the developers, designers, and content creators who contributed to this project. Their dedication to making education accessible to all is truly inspiring.
 
-- [Author Name](https://github.com/author)
-- [Author Name](https://github.com/author)
-- [Author Name](https://github.com/author)
-- [Author Name](https://github.com/author)
-- [Author Name](https://github.com/author)
+- [Satwik Mohan](https://github.com/SatwikMohan)
+- [Aadya Dewangan](https://github.com/aadya-here)
+- [Vivek Kumar](https://github.com/noob-learnr)
+- [Advaya Singh](https://github.com/Advaya-Singh)
+- [Ankur Gautam](https://github.com/Ankur0310)
 
 - [Library Name](https://github.com/library)
 
