@@ -31,11 +31,7 @@ Follow the steps below to get started with the Inclusive Learning App.
 - Android/iOS device with the latest operating system.
 - Internet connectivity for downloading and updating courses.
 
-### Installation
 
-1. Download the app from the [Google Play Store](#) or [Apple App Store](#) based on your device.
-2. Install the app.
-3. Open the app and follow the on-screen prompts to set up your special status and preferences.
 
 ## Features
 
